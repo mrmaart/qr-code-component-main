@@ -1,0 +1,38 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  height: 100vh;
+
+  /* width: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  max-width: 375px;
+  text-align: center;
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+
+.QRcode {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: 'Outfit';
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+p {
+  font-size: 15px;
+  font-family: 'Outfit';
+  color: hsl(216, 15%, 48%);
+  padding-left: 20px;
+  padding-right: 20px;
+}
